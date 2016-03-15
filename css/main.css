@@ -14,18 +14,32 @@ html {
   list-style-type: none;
 }
 
-.grains li {
+figure {
+  margin: 0;
+}
 
+.grains li {
+  width: 100%;
+  position: relative;
+  margin-bottom: 2em;
 }
 
 .grains img {
   width: 100px;
+  display: block;
+  float: left;
+  margin-right: 1em;
 }
 
 .grains h2 {
-
+  display: block;
+  margin: 0;
+  font-size: 1em;
 }
 
 .grains p {
+  display: block;
+  margin: 0;
+  font-style: italic;
 
 }
